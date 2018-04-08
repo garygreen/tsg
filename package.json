@@ -1,0 +1,34 @@
+{
+  "name": "tsg",
+  "version": "1.0.0",
+  "description": "The Tailwind Style Guide Generator - generate personalized style guide from your Tailwind config.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwind build src/styles.css -c ./tailwind.config.js -o ./src/tailwind.css",
+    "build": "webpack",
+    "dist": "SET NODE_ENV=production && npm run build",
+    "watch": "webpack --watch"
+  },
+  "author": "Gary Green",
+  "license": "ISC",
+  "bin": {
+    "tsg": "index.js"
+  },
+  "dependencies": {
+    "commander": "^2.15.1",
+    "ncp": "^2.0.0"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^3.1.0",
+    "style-loader": "^0.20.3",
+    "tailwind": "^2.0.4",
+    "tailwindcss": "^0.5.2",
+    "uglifyjs-webpack-plugin": "^1.2.4",
+    "vue": "^2.5.16",
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^3.11.0"
+  }
+}
