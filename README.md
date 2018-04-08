@@ -1,7 +1,7 @@
 Tailwind Style Guide Generator
 ---
 
-VIDEO
+![Screenshot](tsg-screenshot.png "Tailwind Style Guide Screenshot")
 
 ## Installation
 
