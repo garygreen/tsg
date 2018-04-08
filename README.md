@@ -6,15 +6,21 @@ Tailwind Style Guide Generator
 ## Installation
 
 ```command
-npm install tsg --save-dev
+git clone https://github.com/garygreen/tsg.git
 ```
 
 ## Usage
 
+In the cloned tsg folder, run:
+
 ```command
-tsg <relative or absolute path to config> <generated tailwind css path>
-tsg tailwind.config.js tailwind-generated.css
+node index <relative or absolute path to config> <generated tailwind css path>
+node index tailwind.config.js tailwind-generated.css
 ```
+
+## npm installation
+
+WIP
 
 ## Features
 
