@@ -1,7 +1,7 @@
 Tailwind Style Guide Generator
 ---
 
-[Imgur](https://i.imgur.com/5SnyGCS.gif)
+![Imgur](https://i.imgur.com/5SnyGCS.gif)
 
 ## Installation
 
