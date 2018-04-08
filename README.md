@@ -1,7 +1,7 @@
 Tailwind Style Guide Generator
 ---
 
-![Demo](tsg-demo.gif "Tailwind Style Guide Demo")
+[Imgur](https://i.imgur.com/5SnyGCS.gifv)
 
 ## Installation
 
