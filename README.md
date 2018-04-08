@@ -12,8 +12,8 @@ npm install tsg --save-dev
 ## Usage
 
 ```command
-tsg <relative or absolute path to config>
-tsg tailwind.config.js
+tsg <relative or absolute path to config> <generated tailwind css path>
+tsg tailwind.config.js tailwind-generated.css
 ```
 
 ## Features
@@ -26,7 +26,7 @@ tsg tailwind.config.js
 
 `--output <path>` - specify a custom path to output the generated docs (by default it will be `tsg`)
 
-`--name=<filename e.g. "admin.js">` - specify a custom name for the generated config (by default it will be `site.js`), this is useful for the multi config support.
+`--name=<filename e.g. "admin">` - specify a custom name for the generated config (by default it will be `site`), this is useful for the multi config support.
 
 ## Upcoming Features
 
