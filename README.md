@@ -15,6 +15,8 @@ In the cloned tsg folder, run:
 
 ```command
 node index <relative or absolute path to config> <generated tailwind css path>
+
+Example:
 node index tailwind.config.js tailwind-generated.css
 ```
 
