@@ -1,3 +1,4 @@
 node_modules
 twsg
 public/configs
+.DS_Store
